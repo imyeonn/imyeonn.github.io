@@ -327,50 +327,53 @@ button::-moz-focus-inner
     margin: 0 auto
 
 // /* The shadow behind the image */
-// .mfp-figure {
-//   line-height: 0 }
-//   .mfp-figure:after {
-//     content: ''
-//     position: absolute
-//     left: 0
-//     top: 40px
-//     bottom: 40px
-//     display: block
-//     right: 0
-//     width: auto
-//     height: auto
-//     z-index: -1
-//     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6)
-//     background: #444 }
-//   .mfp-figure small {
-//     color: #BDBDBD
-//     display: block
-//     font-size: 12px
-//     line-height: 14px }
-//   .mfp-figure figure {
-//     margin: 0 }
-//
-// .mfp-bottom-bar {
-//   margin-top: -36px
-//   position: absolute
-//   top: 100%
-//   left: 0
-//   width: 100%
-//   cursor: auto }
-//
-// .mfp-title {
-//   text-align: left
-//   line-height: 18px
-//   color: #F3F3F3
-//   word-wrap: break-word
-//   padding-right: 36px }
-//
-// .mfp-image-holder .mfp-content {
-//   max-width: 100% }
-//
-// .mfp-gallery .mfp-image-holder .mfp-figure {
-//   cursor: pointer }
-//
+.mfp-figure
+    line-height: 0
+
+    &:after
+        content: ''
+        position: absolute
+        left: 0
+        top: 40px
+        bottom: 40px
+        display: block
+        right: 0
+        width: auto
+        height: auto
+        z-index: -1
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.6)
+        background: #444
+
+    > small
+        color: #BDBDBD
+        display: block
+        font-size: 12px
+        line-height: 14px
+
+    > figure
+        margin: 0
+
+.mfp-bottom-bar
+    margin-top: -36px
+    position: absolute
+    top: 100%
+    left: 0
+    width: 100%
+    cursor: auto
+
+.mfp-title
+    text-align: left
+    line-height: 18px
+    color: #F3F3F3
+    word-wrap: break-word
+    padding-right: 36px
+
+.mfp-image-holder > .mfp-content
+    max-width: 100%
+
+.mfp-gallery > .mfp-image-holder > .mfp-figure
+    cursor: pointer
+
 // @media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
 //   /**
 //        * Remove all paddings around the image on small screen
@@ -425,17 +428,6 @@ button::-moz-focus-inner
 //     padding-right: 6px } }
 
 
-
-
-//     width: auto
-//
-
-  // height: auto
-  // display: block
-  // line-height: 0
-  // box-sizing: border-box
-  // padding: 40px 0 40px
-  // margin: 0 auto
 
 
 // input
